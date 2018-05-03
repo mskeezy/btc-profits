@@ -1,0 +1,2 @@
+# btc-profits
+Bitcoin calculator
