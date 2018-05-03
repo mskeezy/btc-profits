@@ -1,0 +1,95 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+@import "variables";
+@import "grid";
+@import "datepicker";
+@import "home";
+@import "results";
+
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+   background: #0f0449 ;
+}
+
+header{
+  padding: 17px 0;
+  overflow: auto;
+
+  .logo{
+    display: inline-block;
+    float: left;
+    color: white;
+  }
+  .menu{
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+    
+    
+    a{
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 1px solid #304ffe;
+      transition: all .3s ease-in-out;
+      
+      
+      &:hover{
+        background: #304ffe;
+      }
+    }
+  }
+}
+
+.main-btn{
+  color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 1px solid #304ffe;
+      transition: all .3s ease-in-out;
+      margin-right: 20px;
+      
+      
+      &:hover{
+       
+       
+}
+&.active{
+  background:#304ffe;
+}
+
+
+}
+.menu .main-btn-login{
+  color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 1px solid #304ffe;
+      transition: all .3s ease-in-out;
+      margin-right: 20px;
+      &:hover{
+        
+       
+      }
+      &.active{
+        background:#AF813F;
+      }
+}
+
+.particles{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
