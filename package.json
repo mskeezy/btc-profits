@@ -48,7 +48,8 @@
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",
     "sass": "gulp styles",
-    "js": "gulp webpack"
+    "js": "gulp webpack",
+    "start": "gulp"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1"
