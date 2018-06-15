@@ -30,8 +30,8 @@ export default class Home extends Component {
             <div className="ads">
             <ins className="adsbygoogle"
                  style={{"display": "block"}}
-                 data-ad-client="ca-pub-6399131812212894"
-                 data-ad-slot="3588496072"
+                 data-ad-client=""
+                 data-ad-slot=""
                  data-ad-format="auto"></ins>
             </div>
           </div>
@@ -50,8 +50,8 @@ export default class Home extends Component {
             <div className="ads">
 <ins className="adsbygoogle"
      style={{"display": "block"}}
-     data-ad-client="ca-pub-6399131812212894"
-     data-ad-slot="3588496072"
+     data-ad-client="ca-pub-2"
+     data-ad-slot=""
      data-ad-format="auto"></ins>
             </div>
           </div>
